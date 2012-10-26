@@ -151,8 +151,9 @@ table.progress td.closed { background-color:#C6E60D; }
 /* END Wiki */
 
 /* Issue [view issue] Page */
-body.controller-issues.action-show #history  div.journal.has-notes { position:relative; }
-body.controller-issues.action-show #history  div .contextual{ right:0;top:20px;}
+body.controller-issues.action-show #history  div.journal.has-notes { position:initial; }
+body.controller-issues.action-show #history  div.journal.has-notes .wiki-edit { width: 50% }
+body.controller-issues.action-show #history  div .contextual{ right:0; top:0; position:relative; }
 body.controller-issues.action-show #history  .journal{ border-bottom:solid #E0E4CC 1px; }
 
 /* END Issue [view issue] Page */
