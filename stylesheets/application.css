@@ -402,3 +402,45 @@ li a.icon-time {line-height:normal;}
 .icon-fav{ background:url(/redmine/images/fav.png) no-repeat left center !important; }
 .icon-admin{background:url(/redmine/images/changeset.png) no-repeat left center !important; }
 .clear{ clear:both; }
+
+/* Custom styles */
+table.list td.tracker {
+	text-align: left;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+    background-size: 16px;
+}
+table.list tr.tracker-Пользователь td.tracker {
+	background-image: url(../icon-user.png);
+	background-size: contain;
+	background-position: bottom left;
+}
+table.list tr.tracker-Функция td.tracker {
+	background-image: url(../icon-feature.png);
+	background-size: contain;
+	background-position: bottom center;
+}
+table.list tr.tracker-Баг td.tracker {
+	background-image: url(../icon-bug.png);
+}
+table.list tr.tracker-Задача td.tracker {
+	background-image: url(../icon-task.png);
+}
+
+table.list tr.tracker-Пользователь td.subject {
+	font-size: 150%;
+	font-weight: bold;
+}
+table.list tr.tracker-Функция td.subject {
+	font-size: 125%;
+}
+table.list tr.issue.idnt-1 td.subject {padding-left: 5px;}
+table.list tr.issue.idnt-2 td.subject {padding-left: 20px;}
+table.list tr.issue.idnt-3 td.subject {padding-left: 40px;}
+table.list tr.issue.idnt-4 td.subject {padding-left: 60px;}
+table.list tr.issue.idnt-5 td.subject {padding-left: 80px;}
+table.list tr.issue.idnt-6 td.subject {padding-left: 100px;}
+table.list tr.issue.idnt-7 td.subject {padding-left: 120px;}
+table.list tr.issue.idnt-8 td.subject {padding-left: 140px;}
+table.list tr.issue.idnt-9 td.subject {padding-left: 160px;}
+
