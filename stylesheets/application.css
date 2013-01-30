@@ -264,7 +264,7 @@ p.breadcrumb {
 
 /* Contextual (Header Buttons) */
 .contextual { 
-	position:absolute;
+	position:relative;
 	top:13px; right:15px; 
 	background-color:#fff;
 	border: solid #ccc 1px; 
