@@ -421,6 +421,9 @@ table.list tr.tracker-Веха td.tracker {
 	background-size: contain;
 	background-position: bottom left;
 }
+table.list tr.tracker-Веха.idnt td.tracker {
+	background-position: bottom center;
+}
 table.list tr.tracker-Функция td.tracker {
 	background-image: url(../icon-feature.png);
 	background-size: contain;
@@ -436,6 +439,10 @@ table.list tr.tracker-Задача td.tracker {
 table.list tr.tracker-Веха td.subject {
 	font-size: 175%;
 	font-weight: bold;
+}
+table.list tr.tracker-Веха.idnt td.subject {
+	font-size: 150%;
+	font-weight: normal;
 }
 table.list tr.tracker-Пользователь td.subject {
 	font-size: 150%;
