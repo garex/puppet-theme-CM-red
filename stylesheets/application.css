@@ -416,6 +416,11 @@ table.list tr.tracker-Пользователь td.tracker {
 	background-size: contain;
 	background-position: bottom left;
 }
+table.list tr.tracker-Веха td.tracker {
+	background-image: url(../icon-time.png);
+	background-size: contain;
+	background-position: bottom left;
+}
 table.list tr.tracker-Функция td.tracker {
 	background-image: url(../icon-feature.png);
 	background-size: contain;
@@ -428,9 +433,12 @@ table.list tr.tracker-Задача td.tracker {
 	background-image: url(../icon-task.png);
 }
 
+table.list tr.tracker-Веха td.subject {
+	font-size: 175%;
+	font-weight: bold;
+}
 table.list tr.tracker-Пользователь td.subject {
 	font-size: 150%;
-	font-weight: bold;
 }
 table.list tr.tracker-Функция td.subject {
 	font-size: 125%;
