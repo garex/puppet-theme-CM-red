@@ -408,26 +408,22 @@ li a.icon-time {line-height:normal;}
 table.list td.tracker {
 	text-align: left;
 	background-repeat: no-repeat;
-	background-position: bottom right;
+	background-position: center;
     background-size: 16px;
 }
 table.list tr.tracker-Пользователь td.tracker {
 	background-image: url(../icon-user.png);
 	background-size: contain;
-	background-position: bottom left;
 }
 table.list tr.tracker-Веха td.tracker {
 	background-image: url(../icon-time.png);
 	background-size: contain;
-	background-position: bottom left;
 }
 table.list tr.tracker-Веха.idnt td.tracker {
-	background-position: bottom center;
 }
 table.list tr.tracker-Функция td.tracker {
 	background-image: url(../icon-feature.png);
-	background-size: contain;
-	background-position: bottom center;
+	background-size: 22px;
 }
 table.list tr.tracker-Баг td.tracker {
 	background-image: url(../icon-bug.png);
